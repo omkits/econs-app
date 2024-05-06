@@ -1,0 +1,80 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* .container {
+  background-color: red;
+} */
+
+.issue{
+  font-size: 20px;
+  margin-top: 200px;
+  font-weight: bold;
+}
+
+.notfound {
+  font-size: 20px;
+  margin-top: 200px;
+  font-weight: bold;
+}
+
+.loadingSpinnerContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingSpinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #000 transparent #555 transparent;
+  border-radius: 50%;
+  animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* .logout-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+} */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-img-top {
+  max-width: 45%;
+  height: 45%;
+  align-self: center; 
+}
+
+.card-body {
+  flex: 1; 
+}
+
+/* .card-text {
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+} */
